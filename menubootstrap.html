@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Menu</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center m-4">
+            <h1> Menu - Faça o seu pedido!</h1>
+        </div>
+
+        <div class="card m-4 p-3">
+            <div class="d-flex justify-content-center m1">
+                <h2>Dados pessoais</h2>
+            </div>
+
+            <form>
+                <label for="fname">Nome:</label> <input type="text" class="form-control" id="fname" name="fname"><br>
+                <label>Telefone:</label> <input type="text" class="form-control" id="telefone"><br>
+                <label>Email:</label> <input type="email" class="form-control" id="email">
+            </form>
+        </div>
+
+        <div class="card m-4 p-3">
+            <div class="d-flex justify-content-center m-1">
+                <h2>Prato Principal</h2>
+            </div>
+            <div class="d-flex justify-contente-center m-1">
+                <div class="form-check pr-5">
+                    <input type="radio" id="pp1" name="prato_principal" value="0" checked>
+                    <label for="pp1">Bife acebolado</label>
+                </div>
+
+                <div class="form-check pr-5">
+                    <input type="radio" id="pp2" name="prato_principal" value="1">
+                    <label for="pp2">Peito de frango Grelhado </label>
+                </div>
+
+                <div class="form-check pr-5">
+                    <input type="radio" id="pp3" name="prato_principal" value="2">
+                    <label for="pp3">Carne de Panela</label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card m-4 p-3">
+            <div class="d-flex justify-content-center m-1">
+                <h2>Acompanhamentos</h2>
+            </div>
+            <div class="d-flex justify-contente-center m-1">
+                <div class="form-check pr-5">
+                    <input type="checkbox" id="acp1" name="acompanhamento" value="0">
+                    <label for="acp1">Mini Salada</label>
+                </div>
+                <div class="form-check pr-5">
+                    <input type="checkbox" id="acp2" name="acompanhamento" value="1">
+                    <label for="acp2">Maionese</label>
+                </div>
+
+                <div class="form-check pr-5">
+                    <input type="checkbox" id="acp3" name="acompanhamento" value="2">
+                    <label for="acp3">Farofa</label>
+                </div>
+
+                <div class="form-check pr-5">
+                    <input type="checkbox" id="acp4" name="acompanhamento" value="3">
+                    <label for="acp4">Torresmo</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="m-4">
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary btn-lg btn-block">Fechar Pedido</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+
+</html>
